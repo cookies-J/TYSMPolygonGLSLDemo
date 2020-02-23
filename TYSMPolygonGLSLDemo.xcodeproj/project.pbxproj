@@ -14,6 +14,7 @@
 		144AAF3A24029CCA00649D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144AAF3924029CCA00649D5E /* Assets.xcassets */; };
 		144AAF3D24029CCA00649D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144AAF3B24029CCA00649D5E /* LaunchScreen.storyboard */; };
 		144AAF4024029CCA00649D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAF3F24029CCA00649D5E /* main.m */; };
+		144AAF4824029CD100649D5E /* TYSMPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAF4724029CD100649D5E /* TYSMPolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		144AAF3C24029CCA00649D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		144AAF3E24029CCA00649D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		144AAF3F24029CCA00649D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		144AAF4624029CD100649D5E /* TYSMPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSMPolygonView.h; sourceTree = "<group>"; };
+		144AAF4724029CD100649D5E /* TYSMPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSMPolygonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				144AAF3124029CC800649D5E /* SceneDelegate.m */,
 				144AAF3324029CC800649D5E /* ViewController.h */,
 				144AAF3424029CC800649D5E /* ViewController.m */,
+				144AAF4624029CD100649D5E /* TYSMPolygonView.h */,
+				144AAF4724029CD100649D5E /* TYSMPolygonView.m */,
 				144AAF3624029CC800649D5E /* Main.storyboard */,
 				144AAF3924029CCA00649D5E /* Assets.xcassets */,
 				144AAF3B24029CCA00649D5E /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				144AAF3524029CC800649D5E /* ViewController.m in Sources */,
 				144AAF2F24029CC800649D5E /* AppDelegate.m in Sources */,
+				144AAF4824029CD100649D5E /* TYSMPolygonView.m in Sources */,
 				144AAF4024029CCA00649D5E /* main.m in Sources */,
 				144AAF3224029CC800649D5E /* SceneDelegate.m in Sources */,
 			);
@@ -225,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SLD7TW6TA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TYSMPolygonGLSLDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SLD7TW6TA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TYSMPolygonGLSLDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
